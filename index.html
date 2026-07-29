@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkata Siva Surya Kolla</title>
+    <link rel="stylesheet" href="pageStyle.css">
+    <script src="https://kit.fontawesome.com/6df614b3b2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento:wght@400;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<!-- body -->
+<body>
+    <!-- sidemenu -->
+    <div id="header">
+        
+        <div class="container">
+            <nav>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Showcase</a></li>
+                    <li><a href="#contact">Socials</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                
+                <h1 class = "my-text shiny-text" style = "margin-bottom : 35px">Kolla Venkata <span>Siva Surya</span><br></h1>
+            </div>
+            <div class="image-box" style="display: flex; justify-content: center; width: 100%;" >
+    <img id="slideshow" src="images/photo1.jpg">
+
+</div>
+
+        </div>
+    </div>
+
+    <!-- -------About--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/logo.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" style = "margin-bottom : 10px">About me</h1>
+                    <p style="margin-bottom: 30px; line-height: 1.7;" class="paragraph-font" >Hi there! My name is K.V. Siva Surya. I'm a senior at Timpany School, Visakhapatnam, with a deep interest in electrical engineering. 
+                        Over the past few years, my deep interest in physics and engineering always left me with
+                        questions and ideas. 
+
+                        It was this pursuit of knowledge that drove me to take harder classes, learn more, build cool projects, and ultimately decide on engineering.
+
+                        
+                        </p>
+                        
+                        <p style = "line-height : 1.7" class="paragraph-font">
+                        Multiple projects I've worked on 
+                        like an anti-veering assistive wearable for visually-impaired swimmers or a 
+                        bionic hand that mimics real time hand movement through hand 
+                        detection showed me how engineering and electronics has the potential to 
+                        teach something new and offer unique solutions to real issues.
+
+                        Scroll down to learn a little more about my interests, passions, and projects!
+                        
+                            
+
+                            
+                         
+                    </p>
+
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')" >Projects</p>
+                            <p class="tab-links" onclick="opentab('education')" >Education</p>
+                         </div>
+
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                
+                                <li><span>Engineering courses</span><br>6.0002 : Circuits and electronics</li>
+                                <li><span>Programming</span><br>Python and Java</li>
+                                <li><span>Microcontrollers</span><br>ESP32 and Arduino</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Sep-2025 to Present</span><br>Assistive wearable</li>
+                                <li><span>Mar-2026 to May-2026</span><br>RGB LED matrix</li>
+                                <li><span>Jan-2026 to Mar-2026</span><br>4 bit adder and subtractor</li>
+                                <li><span>Feb-2026 to Mar-2026</span><br>Bionic hand</li>
+                                
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="education" >
+                            <ul>
+                                <li><span>Current</span><br>Timpany School, Visakhapatnam</li>
+                                <li><span>ICSE Grade 10</span><br>Bethany School</li>
+                                <li><span>AP Courses</span><br>Physics C, Calculus BC, Computer Science A, and more</li>
+                                
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <!-- Services -->
+
+<div  id = "services" class="services-list">
+
+    <div class="project-card">
+
+        <div class="project-text">
+              <h2  class="heading-font">Anti-veering assistive wearable for visually impaired swimmers.</h2>
+                <p style = "line-height : 1.6" class="paragraph-font">Over the past few months, I've been working on making an easy-to-use and cheap assistive wearable that can help blind swimmers swim in a straight line path
+                    without facing issues like path deviations. In building this project, I've used onshape for CAD design, KiCad for PCB design and an esp32 with C++ to program it. 
+
+                </p>
+        </div>
+
+        <div class="project-carousel">
+            <div class="project-carousel">
+    <div class="carousel-track">
+        <img src="antiVeering/testingAndCalibration.jpg">
+         <img src="antiVeering/earliestPrototype.jpeg">
+         <img src="antiVeering/early prototype.jpeg">
+        <img src="antiVeering/modules.jpeg">
+        <img src="antiVeering/prototype.jpeg">
+         <img src="antiVeering/caseTest.jpg">
+          <img src="antiVeering/testingAndCalibration.jpg">
+         <img src="antiVeering/earliestPrototype.jpeg">
+         <img src="antiVeering/early prototype.jpeg">
+        <img src="antiVeering/modules.jpeg">
+        <img src="antiVeering/prototype.jpeg">
+         <img src="antiVeering/caseTest.jpg">
+          <img src="antiVeering/testingAndCalibration.jpg">
+         <img src="antiVeering/earliestPrototype.jpeg">
+         <img src="antiVeering/early prototype.jpeg">
+        <img src="antiVeering/modules.jpeg">
+        <img src="antiVeering/prototype.jpeg">
+         <img src="antiVeering/caseTest.jpg">
+         <img src="antiVeering/earliestPrototype.jpeg">
+        <img src="antiVeering/prototype.jpeg">
+
+       
+        
+    </div>
+</div>
+        </div>
+
+    </div>
+
+    <div class="project-card">
+
+        <div class="project-text">
+            <h2 class="heading-font">A 5x6 RGB LED matrix</h2>
+                <p style = "line-height : 1.6" class="paragraph-font">To learn more about multiplexing and digital electronics, I made an RGB LED matrix that uses multiplexing for LED control and Bit Angle Modulation for brightness control. I uses multiple npn and pnp transistors to control and turn on a specific LED
+                    and used the inbuilt hardware timers of an arduino nano for the actual display and control of the matrix.
+    
+                </p>
+            <div class="learn-more">
+    <a href="https://github.com/kvssJ/5x6-led-matrix">Learn more</a>
+        </div>
+        </div>
+
+        <div class="project-carousel">
+             <div class="carousel-track">
+        
+
+        <img src="rgbLED/heart.jpg">
+        <img src="rgbLED/ledpillar.jpeg">
+        <img src="rgbLED/ledMatrix.png">
+        <img src="rgbLED/LEDs.jpeg">
+        <img src="rgbLED/s.jpg">
+        <img src="rgbLED/u.jpg">
+        <img src="rgbLED/r.jpg">
+        <img src="rgbLED/y.jpg">
+        <img src="rgbLED/a.jpg">
+        <img src="rgbLED/soldered.jpeg">
+
+        <img src="rgbLED/heart.jpg">
+        <img src="rgbLED/ledpillar.jpeg">
+        <img src="rgbLED/ledMatrix.png">
+        <img src="rgbLED/LEDs.jpeg">      
+        <img src="rgbLED/s.jpg">
+        <img src="rgbLED/u.jpg">
+        <img src="rgbLED/r.jpg">
+        <img src="rgbLED/y.jpg">
+        <img src="rgbLED/a.jpg">
+        <img src="rgbLED/soldered.jpeg">
+
+    </div>
+        </div>
+
+    </div>
+
+    <div class="project-card">
+
+        <div class="project-text">
+            <h2 class="heading-font">A GUI to control and animate an LED matrix</h2>
+                <p style = "line-height : 1.6" class="paragraph-font">After making the LED matrix, to easen the control and programming of the matrix, I also used the 
+                    tkinter library in python to create a Graphical User Interface to create and upload frames and create animations.
+                    
+                </p>
+             <div class="learn-more">
+    <a href="https://github.com/kvssJ/A-GUI-to-program-and-control-an-LED-matrix">Learn more</a>
+        </div>
+        </div>
+
+        <div class="project-carousel">
+             <div class="carousel-track">
+        
+
+        <img src="guiControl/gui.png" class ="gui-image">
+        <img src="guiControl/guiButtons.png" class = "gui-image">
+        <img src="guiControl/guiColours.png" class = "gui-image">
+        <img src="guiControl/gui.png" class = "gui-image">
+        <img src="guiControl/guiButtons.png" class = "gui-image">
+        <img src="guiControl/guiColours.png" class = "gui-image">
+        <img src="guiControl/gui.png" class = "gui-image">
+        <img src="guiControl/guiButtons.png" class = "gui-image">
+        <img src="guiControl/guiColours.png" class = "gui-image">
+        <img src="guiControl/gui.png" class = "gui-image">
+        <img src="guiControl/guiButtons.png" class = "gui-image">
+        <img src="guiControl/guiColours.png" class = "gui-image">
+        <img src="guiControl/gui.png" class = "gui-image">
+        <img src="guiControl/guiButtons.png" class = "gui-image">
+        <img src="guiControl/guiColours.png" class = "gui-image">
+        <img src="guiControl/gui.png" class = "gui-image">
+        <img src="guiControl/guiButtons.png" class = "gui-image">
+        <img src="guiControl/guiColours.png" class = "gui-image">
+        <img src="guiControl/guiButtons.png" class = "gui-image">
+        <img src="guiControl/guiColours.png" class = "gui-image">
+        
+    </div>
+        </div>
+
+    </div>
+
+     <div class="project-card">
+
+        <div class="project-text">
+             <h2 class="heading-font">A 4-bit adder and subtractor</h2>
+                <p style = "line-height : 1.6" class="project-no-link">Hoping to learn more about digital electronics, I used a shift register to input two 4 bit binary numbers and perform addition or subtraction based on an external switch. For this, I used full adder circuits for 4 bit addition and a circuit using XOR gates and a SN74HC85N magnitude comparator IC to find the two's complement of both binary numbers and subtract the smaller number from the larger one.
+                    
+    
+                </p>
+        </div>
+
+        <div class="project-carousel">
+            <div class="carousel-track">
+        
+
+        <img src="adderSubtractor/fullAdd.jpeg">
+        <img src="adderSubtractor/adderSub.jpeg">
+        <img src="adderSubtractor/add.jpg">
+        <img src="adderSubtractor/logic.jpg">
+        <img src="adderSubtractor/fullAdd.jpeg">
+        <img src="adderSubtractor/adderSub.jpeg">
+        <img src="adderSubtractor/add.jpg">
+        <img src="adderSubtractor/logic.jpg">
+        <img src="adderSubtractor/fullAdd.jpeg">
+        <img src="adderSubtractor/adderSub.jpeg">
+        <img src="adderSubtractor/add.jpg">
+        <img src="adderSubtractor/logic.jpg">
+        <img src="adderSubtractor/fullAdd.jpeg">
+        <img src="adderSubtractor/adderSub.jpeg">
+        <img src="adderSubtractor/add.jpg">
+        <img src="adderSubtractor/logic.jpg">
+         <img src="adderSubtractor/fullAdd.jpeg">
+        <img src="adderSubtractor/adderSub.jpeg">
+        <img src="adderSubtractor/add.jpg">
+        <img src="adderSubtractor/logic.jpg">
+        
+    </div>
+        </div>
+
+    </div>
+
+<div class="project-card">
+
+        <div class="project-text">
+              <h2 class="heading-font">A real-time gesture controlled bionic hand</h2>
+                <p style = "line-height : 1.6" class="paragraph-font">I created a model of a bionic hand that tracks hand landmarkers and uses the
+                    relative distances between certain points to imitate real-time hand movements on a servo-controlled model of a bionic hand.
+
+                    
+    <div class="learn-more">
+    <a href="https://github.com/kvssJ/Real-time-gesture-controlled-bionic-hand">Learn more</a>
+        </div>
+                </p>
+        </div>
+        
+
+        <div class="project-carousel">
+            <div class="carousel-track">
+       
+
+        <img src="bionicHand/bionic.jpg">
+        <img src="bionicHand/fullHand.jpg">
+        <img src="bionicHand/handfull.jpg">
+        <img src="bionicHand/handModel.jpeg">
+        <img src="bionicHand/bionic.jpg">
+        <img src="bionicHand/fullHand.jpg">
+        <img src="bionicHand/handfull.jpg">
+        <img src="bionicHand/handModel.jpeg">
+        <img src="bionicHand/bionic.jpg">
+        <img src="bionicHand/fullHand.jpg">
+        <img src="bionicHand/handfull.jpg">
+        <img src="bionicHand/handModel.jpeg">
+        <img src="bionicHand/bionic.jpg">
+        <img src="bionicHand/fullHand.jpg">
+        <img src="bionicHand/handfull.jpg">
+        <img src="bionicHand/handModel.jpeg">
+        <img src="bionicHand/bionic.jpg">
+        <img src="bionicHand/fullHand.jpg">
+        <img src="bionicHand/handfull.jpg">
+        <img src="bionicHand/handModel.jpeg">
+        
+    </div>
+        </div>
+
+    </div>
+
+    <div class="project-card">
+
+    <div class="resource-content">
+
+        <div class="project-text">
+            <h2 class="heading-font">A free resource for programming</h2>
+
+            <p style="line-height:1.6" class="paragraph-font">
+            Besides working on engineering projects or learning physics, I've always been interesting in teaching and conveying ideas. From an interest that sparked from watching science educators during the lockdown, my interest in education continues even today.
+            Over the past few years, I've helped multiple people with physics and computer science. Wanting to improve accessibility, I created multiple tutorials and worksheets to help people learn the Java programming language. A collection of these free resources are available on a website I created. 
+            Although the website was created with the ICSE computer science syllabus in mind, I believe it's useful for anyone wanting to learn programming.</p>
+        <div class="learn-more">
+    <a href="https://kvssj.github.io/website/">Learn more</a>
+        </div>    
+        
+        </div>
+
+        <div class="web-image">
+            <a href="https://kvssj.github.io/website/">
+                <img src="website.jpeg" alt="Click here">
+            </a>
+        </div>
+
+    </div>
+
+</div>
+<!--
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Engineering Projects</h1>
+        <div class="services-list">
+            <div>
+               
+                <h2>Anti-veering assistive wearable for visually impaired swimmers.</h2>
+                <p style = "line-height : 1.6">Over the past few months, I've been working on making an easy-to-use and cheap assistive wearable that can help blind swimmers swim in a straight line path
+                    without facing issues like path deviations. In building this project, I've used onshape for CAD design, KiCad for PCB design and an esp32 with C++ to program it. 
+
+                </p>
+                
+            </div>
+
+            <div>
+               
+                <h2>A 5x6 RGB LED matrix</h2>
+                <p style = "line-height : 1.6">To learn more about multiplexing and digital electronics, I made an RGB LED matrix that uses multiplexing for LED control and Bit Angle Modulation for brightness control. I uses multiple npn and pnp transistors to control and turn on a specific LED
+                    and used the inbuilt hardware timers of an arduino nano for the actual display and control of the matrix.
+    
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+               
+                <h2>A GUI to control and animate an LED matrix</h2>
+                <p style = "line-height : 1.6">After making the LED matrix, to easen the control and programming of the matrix, I also used the 
+                    tkinter library in python to create a Graphical User Interface to create and upload frames and create animations.
+                    
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h2>A 4-bit adder and subtractor</h2>
+                <p style = "line-height : 1.6">Hoping to learn more about digital electronics, I used a shift register to input two 4 bit binary numbers and perform addition or subtraction based on an external switch. For this, I used full adder circuits for 4 bit addition and a circuit using XOR gates and a SN74HC85N magnitude comparator IC to find the two's complement of both binary numbers and subtract the smaller number from the larger one.
+                    
+    
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+             <div>
+               
+                <h2>A real-time gesture controlled bionic hand</h2>
+                <p style = "line-height : 1.6">I created a model of a bionic hand that tracks hand landmarkers and uses the
+                    relative distances between certain points to imitate real-time hand movements on a servo-controlled model of a bionic hand.
+
+                    
+    
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                
+                <h2>A free resource for programming</h2>
+                 <p style = "line-height : 1.6">
+            Besides working on engineering projects or learning physics, I've always been interesting in teaching and conveying ideas. From an interest that sparked from watching science educators during the lockdown, my interest in education continues even today.
+            Over the past few years, I've helped multiple people with physics and computer science. Wanting to improve accessibility, I created multiple tutorials and worksheets to help people learn the Java programming language. A collection of these free resources are available on a website I created. 
+            Although the website was created with the ICSE computer science syllabus in mind, I believe it's useful for anyone wanting to learn programming. 
+
+
+    </p>
+                
+            </div>
+             </div>
+           
+        </div>
+    </div>
+</div>
+-->
+
+
+
+<!-- portpolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Showcase</h1>
+       
+    </div>
+</div>
+
+<!-- ********contact*******-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i> kvsivasurya@gmail.com</p>
+                
+                <div class="social-icons">
+                    <a href="https://github.com/kvssJ"><i class="fa-brands fa-github"></i></a>
+                    <a href="www.linkedin.com/in/venkata-siva-surya-kolla
+"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtube.com/@learnjava_programming?si=p1XhY4gC0c6EfN_3"><i class="fa-brands fa-youtube"></i></a>
+                    
+    
+              
+            <div class="contact-right">
+                <form  name="submit-to-google-sheet">
+                    <input class = "few-headings" type="text" name="Name" placeholder="Your name" required>
+                    <input class = "few-headings"type="email" name="email" placeholder="Your Email",require>
+                    <textarea class = "few-headings" name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+
+<!--**********java script*************-->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            //display active colour tab
+            event.currentTarget.classList.add("active-link");
+            //disply active description
+            document.getElementById(tabname).classList.add("active-tab");
+
+
+        }
+
+    </script>
+
+<!-- side menu-->
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+  
+  <script>
+    /* How to Send contact form data on Google sheets  reference: "https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6473s" */
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6K-jOxwHAeQ66WRS3HUN3x9RkRES1wo4rxi_OoyVk0sginC0v6cAVc1dXTmOa0qUYdQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    const msg =document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+  const images = [
+    "images/photo1.jpg",
+    "images/photo2.jpg",
+    "images/photo3.png",
+    "images/photo4.jpg",
+    
+];
+
+let index = 0;
+const img = document.getElementById("slideshow");
+
+setInterval(() => {
+
+    // start zoom
+    img.classList.remove("zoom");
+    void img.offsetWidth; // resets animation
+    img.classList.add("zoom");
+
+    // change image near the end of zoom
+    setTimeout(() => {
+        index = (index + 1) % images.length;
+        img.src = images[index];
+
+        // reset size for new image
+        img.classList.remove("zoom");
+
+    }, 1800);
+
+}, 2000);
+</script>
+
+</body>
+</html>
